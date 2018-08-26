@@ -1,20 +1,29 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+  <div>
+    <WaHeader/>
+    <!-- 一番最初にアクセスしてくるのでここから渡す。 -->
+    <router-link to="/">Home</router-link>
+    <router-link to="/about">About</router-link>
+    <!-- ここにrouter-linkの先を表示する模様。 -->
     <router-view/>
+    <WaFooter/>
   </div>
 </template>
+<script>
+// headerとfooterをぶちこむ
+import WaHeader from "@/components/fixed/WaHeader.vue";
+import WaFooter from "@/components/fixed/WaFooter.vue";
 
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+export default {
+  name: "root-point",
+  components: {
+    WaHeader,
+    WaFooter
+  }
+};
+</script>
+<style lang="scss">
+@import "./assets/scss/app.scss";
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~bootstrap-vue/dist/bootstrap-vue.css";
 </style>

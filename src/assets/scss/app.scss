@@ -1,0 +1,12 @@
+// Bootstrapのカスタマイズ
+$theme-colors: (
+  'primary': #04dead,
+  'secondary': #f1efb9,
+  'info': #0e9577,
+  'success': #62f754,
+  'warning': #ffd255,
+  'danger': #ff6b6b,
+);
+.push-button:hover {
+  filter: opacity(60%);
+};
