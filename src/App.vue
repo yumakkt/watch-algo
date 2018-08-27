@@ -2,8 +2,6 @@
   <div>
     <WaHeader/>
     <!-- 一番最初にアクセスしてくるのでここから渡す。 -->
-    <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
     <!-- ここにrouter-linkの先を表示する模様。 -->
     <router-view/>
     <WaFooter/>
