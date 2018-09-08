@@ -5,7 +5,10 @@ $theme-colors: (
   'info': #0e9577,
   'success': #62f754,
   'warning': #ffd255,
-  'danger': #ff6b6b,
+  'pink': rgb(251, 105, 142),
+  'indigo': rgb(118, 79, 170),
+  'orange': orange,
+  'skyblue': skyblue,
 );
 .push-button:hover {
   filter: opacity(60%);
