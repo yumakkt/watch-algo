@@ -34,6 +34,7 @@ export default {
           name: "Sort",
           linkName: "sort",
           implements: [
+            { name: "insert sort", linkName: "insert" },
             { name: "merge sort", linkName: "merge" },
             { name: "quick sort", linkName: "quick" },
             { name: "bubble sort", linkName: "bubble" }

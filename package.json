@@ -13,6 +13,7 @@
     "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.0.0-rc.11",
     "cache-loader": "^1.2.2",
+    "d3": "^5.7.0",
     "eslint": "^5.4.0",
     "eslint-loader": "^2.1.0",
     "eslint-plugin-vue": "^4.7.1",
